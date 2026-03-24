@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+           <div class="logo"> Rapid <span>Crypto</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="plans.html">Plans</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <!-- <li><a href="deposit.html">Deposit</a></li> -->
+                    <li><a href="login.html" class="btn-header">Login</a></li>
+                    <li><a href="register.html" class="btn-header">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="deposit-section">
+        <div class="form-container">
+            <h2 class="deposit-header">Deposit Funds</h2>
+            <p class="deposit-subtitle">Select your payment method and deposit funds to start trading.</p>
+            <form>
+                <input type="number" id="amount" name="amount" placeholder="Enter Amount ($)" required>
+                <select id="method" name="method" required>
+                    <option value="" disabled selected>Select Payment Method</option>
+                    <option value="bitcoin">Bitcoin (BTC)</option>
+                    <option value="ethereum">Ethereum (ETH)</option>
+                    <option value="usdt-bep20">Usdt (BEP20)</option>
+                    <option value="usdt-trc20">USDT (TRC20)</option>
+                    <!-- <option value="usdt-trc20">PayPal</option> -->
+                </select>
+                <button type="submit" class="btn">Deposit Now</button>
+            </form>
+        </div>
+    </section>
+
+      <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 RapidCrypto. All Rights Reserved.</p><br>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - RapidCrypto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+       <div class="logo"> Rapid <span>Crypto</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="plans.html">Plans</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <!-- <li><a href="deposit.html">Deposit</a></li> -->
+                    <li><a href="login.html" class="btn-header">Login</a></li>
+                    <li><a href="register.html" class="btn-header">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="register-section">
+        <div class="form-container">
+            <h2 class="register-header">Register</h2>
+            <p class="register-subtitle">Create your Rapid Crypto account and start trading instantly.</p>
+            <form action="deposit.html">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <select name="country" required>
+                    <option value="" disabled selected>Select Your Country</option>
+                    <option value="usa">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="canada">Canada</option>
+                </select>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+                <button type="submit" class="btn">Register</button><br><br>
+                <p>Already have an account? <a href="login.html">Login here</a></p>
+            </form>
+        </div>
+    </section>
+
+      <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 RapidCrypto. All Rights Reserved.</p><br>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
